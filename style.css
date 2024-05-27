@@ -1,0 +1,53 @@
+* {
+    font-family: 'Poppins', sans-serif;
+} 
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.photoProfileBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pp {
+    width: 13%;
+    height: 13%;
+}
+
+.nama {
+    color: #ffff;
+    text-align: center;
+}
+
+.back-video {
+    position: absolute;
+
+}
+
+a {
+    color: #12486B;
+}
+
+b {
+    color: #12486B;
+}
+
+a:link {
+    text-decoration: none;
+    color: #12486B;
+a:active {
+    text-decoration: none;
+    color: #12486B;
+}
+
+.logoCS {
+    list-style-image: url(Assets/instagram-logo-download-computer-neon-instagram-icons-image-23.png);
+}
