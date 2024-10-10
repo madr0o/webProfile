@@ -46,8 +46,32 @@ a:link {
 a:active {
     text-decoration: none;
     color: #12486B;
+}}
+
+.container {
+    flex: 1; 
 }
 
 .logoCS {
     list-style-image: url(Assets/instagram-logo-download-computer-neon-instagram-icons-image-23.png);
 }
+
+.footer {
+    background-color: #12486B;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.container-footer-left {
+    text-align: left;
+}
+
+.container-footer-right {
+    text-align: right;
+}
+
